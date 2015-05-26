@@ -16,6 +16,12 @@ Should be:
 " ...\"\/\/localhost:3000\/\"\n ... "
 ```
 
+Or:
+
+```js
+" ...\"localhost:3000\"\n ... "
+```
+
 ## Reproduce
 
 Initialize a Laravel project:
