@@ -2,7 +2,7 @@
 
 ## Bug
 
-JavaScript halted by "SyntaxError: illegal character".
+JavaScript be halted by "SyntaxError: illegal character".
 
 ![](bug.png)
 
@@ -89,6 +89,15 @@ class AppServiceProvider extends ServiceProvider {
 Run Gulp:
 
 ```bash
-./node_modules/bin/gulp.js
+./node_modules/gulp/bin/gulp.js
 ```
 
+---
+
+You can clone this repo and run:
+
+```bash
+composer install
+npm install
+./node_modules/gulp/bin/gulp.js
+```
