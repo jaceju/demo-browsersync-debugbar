@@ -24,6 +24,16 @@ Or:
 
 ## Reproduce
 
+You can clone this repo and run:
+
+```bash
+composer install
+npm install
+./node_modules/gulp/bin/gulp.js
+```
+
+--- OR --
+
 Initialize a Laravel project:
 
 ```bash
@@ -89,15 +99,5 @@ class AppServiceProvider extends ServiceProvider {
 Run Gulp:
 
 ```bash
-./node_modules/gulp/bin/gulp.js
-```
-
----
-
-You can clone this repo and run:
-
-```bash
-composer install
-npm install
 ./node_modules/gulp/bin/gulp.js
 ```
