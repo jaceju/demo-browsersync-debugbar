@@ -1,4 +1,4 @@
-# Bug demo for integration of BrowserSync and DebugBar in Laravel 5
+# Demo for integration of BrowserSync and DebugBar in Laravel 5
 
 ## Bug
 
