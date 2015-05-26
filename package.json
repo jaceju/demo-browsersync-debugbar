@@ -1,0 +1,9 @@
+{
+  "private": true,
+  "devDependencies": {
+    "gulp": "^3.8.11",
+    "laravel-elixir": "^1.0.0",
+    "laravel-elixir-browser-sync": "^0.1.6",
+    "laravel-elixir-serve": "^0.1.1"
+  }
+}
