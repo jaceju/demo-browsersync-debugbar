@@ -1,3 +1,23 @@
+# Bug demo for integration of BrowserSync and DebugBar in Laravel 5
+
+## Bug
+
+JavaScript halted by "SyntaxError: illegal character".
+
+![](bug.png)
+
+```js
+" ...\"//localhost:3000/"\n ... "
+```
+
+Should be:
+
+```js
+" ...\"\/\/localhost:3000\/\"\n ... "
+```
+
+## Reproduce
+
 Initialize a Laravel project:
 
 ```bash
