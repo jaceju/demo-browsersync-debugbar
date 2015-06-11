@@ -27,6 +27,8 @@ Or:
 You can clone this repo and run:
 
 ```bash
+cd demo-browsersync-debugbar
+cp .env.example .env
 composer install
 npm install
 ./node_modules/gulp/bin/gulp.js
